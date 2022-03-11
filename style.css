@@ -1,0 +1,46 @@
+.main{
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    position: relative;
+}
+.box_1{
+    height: 150px;
+    width: 150px;
+    background-color: hotpink;
+    position: absolute;
+    transition: 5s cubic-bezier(0, 0.47, 0.58, 1);
+    /* transition: 5s ease-in-out  diye inspact kore __cubic-bezier(0, 0.47, 0.58, 1)__ eta ber kora jabe & speed essa moto set kora jabe*/
+}
+.main:hover .box_1{
+    transform: translate(400px) rotate(90deg);
+}
+
+
+
+.box_2{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(50, 19, 230);
+    position: absolute;
+    transition: 5s cubic-bezier(0, 0.47, 0.58, 1);
+    /* ___transition: 5s ease-in-out___  diye inspact kore __cubic-bezier(0, 0.47, 0.58, 1)__ eta ber kora jabe & speed essa moto set kora jabe*/
+}
+.main:hover .box_2{
+ transform: translate(0,400px) rotate(90deg);
+}
+
+
+
+
+.box_3{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(240, 15, 27);
+    position: absolute;
+    transition: 5s cubic-bezier(0, 0.47, 0.58, 1);
+    /* ___transition: 5s ease-in-out___  diye inspact kore __cubic-bezier(0, 0.47, 0.58, 1)__ eta ber kora jabe & speed essa moto set kora jabe*/
+}
+.main:hover .box_3{
+ transform: translate(400px,400px) rotate(90deg);
+}
